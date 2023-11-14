@@ -1,4 +1,7 @@
 # How to configure your system just like me!!
+![Screenshot](https://github.com/bulkutan/My-Last-KDE-Config-Arch/blob/main/2023-11-15_00-59.png)
+
+
  For Iconpack; `yay -S gruvbox-plus-icon-theme-git`  
 
 - I use KDE and Openbox at the same time. For this, install Openbox; `sudo pacman -S openbox`
