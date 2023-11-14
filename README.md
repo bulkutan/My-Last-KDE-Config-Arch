@@ -30,17 +30,17 @@ Install yay, git etc.; `sudo pacman -S --needed base-devel git` -> `git clone ht
 NVIDIA Drivers are done!! (nvidia i hate you)
 
 ### The Apps Currently I Use;
--Lunar Client; [install from there](https://www.lunarclient.com/download)
--Steam; `sudo pacman -S steam`
--Neovim; `sudo pacman -S neovim`
--Viusal Studio Code; `sudo pacman -S code`
--Heroic Games Launcher; `yay -S heroic-games-launcher`
--ProtonVPN; `sudo pacman -S openvpn`, then follow this [link](https://wiki.archlinux.org/title/ProtonVPN#OpenVPN_setup)
--BleachBit; `sudo pacman -S bleachbit`
--Minecraft Launcher; `sudo pacman -S minecraft-launcher` 
--Obsidian; `sudo pacman -S obsidian`
--OBS Studio; `sudo pacman -S obs-studio`
--Protonup-Qt​; `flatpak install flathub net.davidotek.pupgui2`
+- Lunar Client; [install from there](https://www.lunarclient.com/download)
+- Steam; `sudo pacman -S steam`
+- Neovim; `sudo pacman -S neovim`
+- Viusal Studio Code; `sudo pacman -S code`
+- Heroic Games Launcher; `yay -S heroic-games-launcher`
+- ProtonVPN; `sudo pacman -S openvpn`, then follow this [link](https://wiki.archlinux.org/title/ProtonVPN#OpenVPN_setup)
+- BleachBit; `sudo pacman -S bleachbit`
+- Minecraft Launcher; `sudo pacman -S minecraft-launcher` 
+- Obsidian; `sudo pacman -S obsidian`
+- OBS Studio; `sudo pacman -S obs-studio`
+- Protonup-Qt​; `flatpak install flathub net.davidotek.pupgui2`
 
 #### Wine, Lutris, League of Legends (yikes)
 - `sudo pacman -S lutris`
