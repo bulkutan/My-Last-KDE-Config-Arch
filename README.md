@@ -51,3 +51,9 @@ NVIDIA Drivers are done!! (nvidia i hate you)
   - `sudo pacman -S openrazer-daemon`
   - reboot your system
   - `yay -S polychromatic`
+
+    ##### Install Yay
+    - `sudo pacman -S --needed base-devel git`
+    - `git clone https://aur.archlinux.org/yay.git`
+    - `cd yay`
+    - `makepkg -si`
