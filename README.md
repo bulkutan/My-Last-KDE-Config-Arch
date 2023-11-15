@@ -17,7 +17,7 @@ Install yay, git etc.; `sudo pacman -S --needed base-devel git` -> `git clone ht
 
 ## Install NVIDIA
 
-- Firstly, enable the multilib from `/etc/pacman.conf`, then update the system `sudo pacman -Syu`, after that install required packages: `sudo pacman -S base-devel linux-lts-headers git --needed` (I use LTS Kernel, install the linux headers package based on your kernel choice.)
+- Firstly, enable the multilib from `/etc/pacman.conf` (Uncomment the **Multilib**) and uncomment the **ParallelDownloads** section, then update the system `sudo pacman -Syu`, after that install required packages: `sudo pacman -S base-devel linux-lts-headers git --needed` (I use LTS Kernel, install the linux headers package based on your kernel choice.)
 - Secondly, install these packages; `sudo pacman -S nvidia-lts nvidia-utils lib32-nvidia-utils nvidia-settings` (I currently have Nvidia GTX 1050Ti, find your drivers from this [link](https://nouveau.freedesktop.org/CodeNames.html) and you can check this [link](https://wiki.gentoo.org/wiki/NVIDIA#Feature_support) too.)
   
  ***For GRUB Users***
