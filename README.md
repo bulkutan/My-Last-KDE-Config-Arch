@@ -13,9 +13,12 @@
 - BetterDiscord, Kvantum, fish and neofetch Folders; `~/.config/`
 
 Install Spotify from Flatpak; `sudo pacman -S flatpak` -> `flatpak install flathub com.spotify.Client` -> `flatpak run com.spotify.Client`
-Install yay, git etc.; `sudo pacman -S --needed base-devel git` -> `git clone https://aur.archlinux.org/yay.git` -> `cd yay` -> `makepkg -si`
 
-## Install NVIDIA
+
+##Yay
+- Install yay, git etc.; `sudo pacman -S --needed base-devel git` -> `git clone https://aur.archlinux.org/yay.git` -> `cd yay` -> `makepkg -si`
+
+### Install NVIDIA
 
 - Firstly, enable the multilib from `/etc/pacman.conf` (Uncomment the **Multilib**) and uncomment the **ParallelDownloads** section, then update the system `sudo pacman -Syu`, after that install required packages: `sudo pacman -S base-devel linux-lts-headers git --needed` (I use LTS Kernel, install the linux headers package based on your kernel choice.)
 - Secondly, install these packages; `sudo pacman -S nvidia-lts nvidia-utils lib32-nvidia-utils nvidia-settings` (I currently have Nvidia GTX 1050Ti, find your drivers from this [link](https://nouveau.freedesktop.org/CodeNames.html) and you can check this [link](https://wiki.gentoo.org/wiki/NVIDIA#Feature_support) too.)
@@ -29,7 +32,7 @@ Install yay, git etc.; `sudo pacman -S --needed base-devel git` -> `git clone ht
 
 NVIDIA Drivers are done!! (nvidia i hate you)
 
-### The Apps Currently I Use;
+#### The Apps Currently I Use;
 - Lunar Client; `yay -S lunar-client`
 - Steam; `sudo pacman -S steam`
 - Neovim; `sudo pacman -S neovim`
@@ -42,18 +45,13 @@ NVIDIA Drivers are done!! (nvidia i hate you)
 - OBS Studio; `sudo pacman -S obs-studio`
 - Protonup-Qt​; `flatpak install flathub net.davidotek.pupgui2`
 
-#### Wine, Lutris, League of Legends (yikes)
+##### Wine, Lutris, League of Legends (yikes)
 - `sudo pacman -S lutris`
 - `sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses ocl-icd lib32-ocl-icd libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader`
 - [Link](https://lutris.net/games/league-of-legends/) for the League of Legends Lutris website.
 
-  #### Openrazer
+  ##### Openrazer
   - `sudo pacman -S openrazer-daemon`
   - reboot your system
   - `yay -S polychromatic`
 
-    ##### Install Yay
-    - `sudo pacman -S --needed base-devel git`
-    - `git clone https://aur.archlinux.org/yay.git`
-    - `cd yay`
-    - `makepkg -si`
