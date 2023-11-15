@@ -37,7 +37,7 @@ NVIDIA Drivers are done!! (nvidia i hate you)
 - Heroic Games Launcher; `yay -S heroic-games-launcher`
 - ProtonVPN; `sudo pacman -S openvpn`, then follow this [link](https://wiki.archlinux.org/title/ProtonVPN#OpenVPN_setup)
 - BleachBit; `sudo pacman -S bleachbit`
-- Minecraft Launcher; `sudo pacman -S minecraft-launcher` 
+- Minecraft Launcher; `yay -S minecraft-launcher` 
 - Obsidian; `sudo pacman -S obsidian`
 - OBS Studio; `sudo pacman -S obs-studio`
 - Protonup-Qt​; `flatpak install flathub net.davidotek.pupgui2`
