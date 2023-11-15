@@ -30,7 +30,7 @@ Install yay, git etc.; `sudo pacman -S --needed base-devel git` -> `git clone ht
 NVIDIA Drivers are done!! (nvidia i hate you)
 
 ### The Apps Currently I Use;
-- Lunar Client; [install from there](https://www.lunarclient.com/download)
+- Lunar Client; `yay -S lunar-client`
 - Steam; `sudo pacman -S steam`
 - Neovim; `sudo pacman -S neovim`
 - Viusal Studio Code; `sudo pacman -S code`
